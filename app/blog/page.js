@@ -2,9 +2,11 @@
 import { context } from "@/context/context";
 import Layout from "@/layout/Layout";
 import Link from "next/link";
-import { useContext, useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 
 const Index = () => {
+	const [state, setState] = useState(0);
+	const [errorMsg, setErrorMsg] = useState("");
 	const { banner_image_function, page_info_function } = useContext(context);
 	useEffect(() => {
 		banner_image_function("/img/banner2.jpg");
@@ -15,6 +17,29 @@ const Index = () => {
 			false
 		);
 	}, []);
+
+	const subscribe = async (e) => {
+		e.preventDefault();
+
+		setState(1);
+		seterrorMsg("");
+		console.log(e.target[0].value);
+		try {
+			const res = await fetch("../api/newsletter", {
+				method: "POST",
+				body: e.target[0].value,
+			});
+
+			const data = await res.json();
+			if (data.error !== null) {
+				throw data.error;
+			}
+			setState(2);
+		} catch (e) {
+			seterrorMsg(e);
+			setState(3);
+		}
+	};
 
 	return (
 		<Layout>
@@ -522,12 +547,24 @@ const Index = () => {
 						<h5>Subscribe to my newsletter</h5>
 					</div>
 					<div className="col-lg-8">
-						<form>
-							<input type="email" placeholder="Email" />
-							<button className="trm-btn" type="submit">
-								<i className="fas fa-paper-plane" />
-							</button>
-						</form>
+						{state == 2 ? (
+							<p className="font-medium mt-4 text-xl text-green-800">
+								Thanks for subscribing, you have successfully subscribed to my
+								newsletter!
+							</p>
+						) : (
+							<form onSubmit={subscribe}>
+								<input type="email" placeholder="Email" required />
+								<button className="trm-btn" type="submit">
+									<i className="fas fa-paper-plane" />
+								</button>
+								{state === 3 ? (
+									<p className="text-red-500 mt-3">{errorMsg}</p>
+								) : (
+									""
+								)}
+							</form>
+						)}
 					</div>
 				</div>
 			</div>
