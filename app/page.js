@@ -5,7 +5,6 @@ import Publications from "@/components/Publications";
 import Services from "@/components/Services";
 import Story from "@/components/Story";
 import Testimonials from "@/components/Testimonials";
-import VideoResume from "@/components/VideoResume";
 import { context } from "@/context/context";
 import Layout from "@/layout/Layout";
 import { useContext, useEffect } from "react";
@@ -25,7 +24,7 @@ const Index = () => {
 			<Story />
 			{/* text end */}
 			{/* video resume */}
-			<VideoResume />
+
 			{/* video resume end */}
 			{/* services */}
 			<Services />
