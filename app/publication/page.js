@@ -21,7 +21,7 @@ const Index = () => {
 					<div className="trm-card trm-label trm-label-light text-center">
 						<i className="far fa-calendar-alt trm-icon" />
 						<br />
-						17 JULYS
+						17 JULY
 					</div>
 				</div>
 				<div className="col-lg-4">
@@ -35,7 +35,7 @@ const Index = () => {
 					<div className="trm-card trm-label trm-label-light text-center">
 						<i className="far fa-user trm-icon" />
 						<br />
-						Emma T.
+						Lindsey H.
 					</div>
 				</div>
 			</div>
@@ -157,15 +157,15 @@ const Index = () => {
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
 									<a className="trm-anima-link">
-										Create your own beauty blog with 
+										Create your own beauty blog with
 									</a>
 								</Link>
 							</h5>
 							<div className="trm-divider trm-mb-20 trm-mt-20" />
 							<ul className="trm-card-data trm-label">
-								<li>17 JULYS</li>
+								<li>17 JULY</li>
 								<li>14:32</li>
-								<li>Emma T.</li>
+								<li>Lindsey H.</li>
 							</ul>
 						</div>
 					</div>
@@ -190,15 +190,15 @@ const Index = () => {
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
 									<a className="trm-anima-link">
-										Create your own beauty blog with 
+										Create your own beauty blog with
 									</a>
 								</Link>
 							</h5>
 							<div className="trm-divider trm-mb-20 trm-mt-20" />
 							<ul className="trm-card-data trm-label">
-								<li>17 JULYS</li>
+								<li>17 JULY</li>
 								<li>14:32</li>
-								<li>Emma T.</li>
+								<li>Lindsey H.</li>
 							</ul>
 						</div>
 					</div>

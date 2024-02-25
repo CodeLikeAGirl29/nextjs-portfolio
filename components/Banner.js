@@ -72,8 +72,7 @@ const Image = ({ banner_image }) => {
 									resume!
 								</h1>
 							</div>
-							{/* banner title end */}
-							{/* scroll hint */}
+
 							<a
 								href="#about-triger"
 								data-scroll-to="#about-triger"

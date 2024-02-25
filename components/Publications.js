@@ -34,9 +34,9 @@ const Publications = () => {
 						</h5>
 						<div className="trm-divider trm-mb-20 trm-mt-20" />
 						<ul className="trm-card-data trm-label">
-							<li>17 JULYS</li>
+							<li>17 JULY</li>
 							<li>14:32</li>
-							<li>Emma T.</li>
+							<li>Lindsey H.</li>
 						</ul>
 					</div>
 				</div>
@@ -67,9 +67,9 @@ const Publications = () => {
 						</h5>
 						<div className="trm-divider trm-mb-20 trm-mt-20" />
 						<ul className="trm-card-data trm-label">
-							<li>17 JULYS</li>
+							<li>17 JULY</li>
 							<li>14:32</li>
-							<li>Emma T.</li>
+							<li>Lindsey H.</li>
 						</ul>
 					</div>
 				</div>

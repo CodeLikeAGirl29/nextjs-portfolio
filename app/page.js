@@ -23,9 +23,6 @@ const Index = () => {
 			{/* text */}
 			<Story />
 			{/* text end */}
-			{/* video resume */}
-
-			{/* video resume end */}
 			{/* services */}
 			<Services />
 			{/* services end */}

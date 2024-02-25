@@ -39,11 +39,7 @@ const Index = () => {
 							<h6 className="trm-mb-20">Call</h6>
 							<div className="trm-mb-15">
 								<span className="trm-label">Work:</span>{" "}
-								<span className="trm-text-sm">+29 (044) 593 85 63</span>
-							</div>
-							<div>
-								<span className="trm-label">Personal:</span>{" "}
-								<span className="trm-text-sm">+29 (044) 293 37 28</span>
+								<span className="trm-text-sm">850.737.5474</span>
 							</div>
 						</div>
 					</div>
@@ -69,14 +65,14 @@ const Index = () => {
 									className="trm-white-icon"
 								/>
 							</div>
-							<h6 className="trm-mb-20">Wright</h6>
+							<h6 className="trm-mb-20">Write</h6>
 							<div className="trm-mb-15">
 								<span className="trm-label">Email:</span>{" "}
-								<span className="trm-text-sm">.inbox@gmail.com</span>
+								<span className="trm-text-sm">lindseykdev@gmail.com</span>
 							</div>
 							<div>
 								<span className="trm-label">Instagram:</span>{" "}
-								<span className="trm-text-sm">@emma</span>
+								<span className="trm-text-sm">@fiercely.lindseyy</span>
 							</div>
 						</div>
 					</div>
@@ -102,7 +98,11 @@ const Index = () => {
 				</div>
 				<div className="col-lg-12">
 					<div className="trm-contact-card">
-						<form id="form2">
+						<form
+							id="form2"
+							action="https://formspree.io/f/xpzobwob"
+							method="POST"
+						>
 							<input name="name" type="text" placeholder="Name" />
 							<input name="email" type="email" placeholder="Email" />
 							<textarea
@@ -128,7 +128,7 @@ const Index = () => {
 							</div>
 							<Link legacyBehavior href="/">
 								<a className="trm-btn">
-									<i className="fas fa-arrow-left" /> Back to homepage
+									<i className="fas fa-arrow-left" /> Back home
 								</a>
 							</Link>
 						</div>
