@@ -211,9 +211,7 @@ const Index = () => {
 									the skills to navigate both frontend and backend technologies.
 									This hands-on certificate provides a solid foundation in HTML,
 									CSS, JavaScript, and React, along with server-side
-									technologies like Node.js, Express, and MongoDB, preparing
-									individuals for diverse roles in the dynamic field of
-									full-stack web development.
+									technologies like Node.js, Express, and MongoDB.
 								</div>
 								<a
 									data-fancybox
@@ -305,11 +303,11 @@ const Index = () => {
 									</div>
 									<div>
 										I am a results-driven professional with a proven track
-										record of developing and executing strategic sales and
-										marketing initiatives. I excel in building and leading
-										high-performance teams, cultivating client relationships,
-										and implementing innovative campaigns to drive revenue
-										growth and brand visibility.
+										record of developing & executing strategic sales & marketing
+										initiatives. I excel in building & leading high-performance
+										teams, cultivating client relationships, & implementing
+										innovative campaigns to drive revenue growth & brand
+										visibility.
 									</div>
 								</div>
 							</div>
@@ -332,12 +330,12 @@ const Index = () => {
 										</div>
 									</div>
 									<div>
-										I specialize in crafting seamless and visually engaging
+										I specialize in crafting seamless & visually engaging
 										digital experiences. From intuitive user interfaces that
 										prioritize functionality to thoughtfully designed user
 										experiences, I merge creativity with user-centric design
-										principles to enhance the overall usability and aesthetic
-										appeal of web and mobile applications.
+										principles to enhance the overall usability & aesthetic
+										appeal of web & mobile applications.
 									</div>
 								</div>
 							</div>

@@ -58,10 +58,14 @@ const Layout = ({ children, noSidebar, onePage }) => {
 								{/* popup */}
 								<div id="trm-order" className="trm-order">
 									<div className="trm-popup-content">
-										<img src="img/popup.jpg" alt="photo" />
+										<img src="img/popup.png" alt="photo" />
 										<div className="trm-popup-form-frame">
 											<h5 className="trm-mb-40">Write me a message</h5>
-											<form id="form1">
+											<form
+												id="form1"
+												action="https://formspree.io/f/xpzobwob"
+												method="POST"
+											>
 												<input name="name" type="text" placeholder="Name" />
 												<input name="email" type="email" placeholder="Email" />
 												<textarea

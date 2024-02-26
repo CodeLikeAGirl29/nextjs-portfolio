@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+
 const Skills = () => {
 	return (
 		<Fragment>
@@ -15,7 +16,7 @@ const LanguageSkills = () => {
 			<div className="col-lg-12">
 				{/* title */}
 				<h5 className="trm-mb-40 trm-title-with-divider">
-					Language skills
+					Skills
 					<span data-number={5} />
 				</h5>
 			</div>
@@ -27,20 +28,20 @@ const LanguageSkills = () => {
 				>
 					<div className="trm-mb-40">
 						<div className="trm-skill-header">
-							<h6 className="trm-mb-15">Turkish</h6>
-							<span className="trm-label trm-label-light">Native</span>
+							<h6 className="trm-mb-15">Communication</h6>
+							<span className="trm-label trm-label-light">80%</span>
 						</div>
 						<div className="trm-progressbar-frame">
-							<div className="trm-progressbar p100" />
+							<div className="trm-progressbar p80" />
 						</div>
 					</div>
 					<div>
 						<div className="trm-skill-header">
-							<h6 className="trm-mb-15">English</h6>
-							<span className="trm-label trm-label-light">90%</span>
+							<h6 className="trm-mb-15">Teamwork</h6>
+							<span className="trm-label trm-label-light">70%</span>
 						</div>
 						<div className="trm-progressbar-frame">
-							<div className="trm-progressbar p90" />
+							<div className="trm-progressbar p70" />
 						</div>
 					</div>
 				</div>
@@ -53,7 +54,7 @@ const LanguageSkills = () => {
 				>
 					<div className="trm-mb-40">
 						<div className="trm-skill-header">
-							<h6 className="trm-mb-15">Spanish</h6>
+							<h6 className="trm-mb-15">Problem-solving</h6>
 							<span className="trm-label trm-label-light">80%</span>
 						</div>
 						<div className="trm-progressbar-frame">
@@ -62,7 +63,7 @@ const LanguageSkills = () => {
 					</div>
 					<div>
 						<div className="trm-skill-header">
-							<h6 className="trm-mb-15">Italian</h6>
+							<h6 className="trm-mb-15">Adaptability</h6>
 							<span className="trm-label trm-label-light">60%</span>
 						</div>
 						<div className="trm-progressbar-frame">
@@ -92,7 +93,7 @@ const HardSkills = () => {
 				>
 					<div className="trm-mb-40">
 						<div className="trm-skill-header">
-							<h6 className="trm-mb-15">Html</h6>
+							<h6 className="trm-mb-15">HTML</h6>
 							<span className="trm-label trm-label-light">100%</span>
 						</div>
 						<div className="trm-progressbar-frame">
@@ -127,16 +128,16 @@ const HardSkills = () => {
 				>
 					<div className="trm-mb-40">
 						<div className="trm-skill-header">
-							<h6 className="trm-mb-15">jQuery</h6>
-							<span className="trm-label trm-label-light">90%</span>
+							<h6 className="trm-mb-15">React.js</h6>
+							<span className="trm-label trm-label-light">70%</span>
 						</div>
 						<div className="trm-progressbar-frame">
-							<div className="trm-progressbar p90" />
+							<div className="trm-progressbar p70" />
 						</div>
 					</div>
 					<div className="trm-mb-40">
 						<div className="trm-skill-header">
-							<h6 className="trm-mb-15">Vue js</h6>
+							<h6 className="trm-mb-15">Next js</h6>
 							<span className="trm-label trm-label-light">70%</span>
 						</div>
 						<div className="trm-progressbar-frame">
@@ -145,11 +146,11 @@ const HardSkills = () => {
 					</div>
 					<div>
 						<div className="trm-skill-header">
-							<h6 className="trm-mb-15">Js</h6>
-							<span className="trm-label trm-label-light">60%</span>
+							<h6 className="trm-mb-15">JavaScript</h6>
+							<span className="trm-label trm-label-light">75%</span>
 						</div>
 						<div className="trm-progressbar-frame">
-							<div className="trm-progressbar p60" />
+							<div className="trm-progressbar p70" />
 						</div>
 					</div>
 				</div>

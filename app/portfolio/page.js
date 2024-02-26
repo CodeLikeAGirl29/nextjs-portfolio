@@ -4,11 +4,11 @@ import Layout from "@/layout/Layout";
 import { useContext, useEffect } from "react";
 
 const portfolioItems = [
-	{ id: 1, img: "/img/portfolio/1.jpg", title: "Branded cup" },
-	{ id: 2, img: "/img/portfolio/2.jpg", title: "Stylish business card" },
-	{ id: 3, img: "/img/portfolio/3.gif", title: "Mobile application" },
-	{ id: 4, img: "/img/portfolio/4.jpg", title: "T-shirt print" },
-	{ id: 5, img: "/img/portfolio/5.jpg", title: "T-shirt print" },
+	{ id: 1, img: "/img/portfolio/1.png", title: "Dictionarium" },
+	{ id: 2, img: "/img/portfolio/2.png", title: "Unsplash API" },
+	{ id: 3, img: "/img/portfolio/3.png", title: "City Tours" },
+	{ id: 4, img: "/img/portfolio/4.png", title: "Galaxy Ventures" },
+	{ id: 5, img: "/img/portfolio/5.png", title: "Unleashed" },
 	{ id: 6, img: "/img/portfolio/6.jpg", title: "Branded Package" },
 ];
 
@@ -16,7 +16,7 @@ const Index = () => {
 	const { banner_image_function, page_info_function } = useContext(context);
 	useEffect(() => {
 		banner_image_function("/img/banner2.jpg");
-		page_info_function("Recent work<br>performed", "portfolio", "portfolio");
+		page_info_function("Recent projects", "portfolio", "portfolio");
 	}, []);
 	return (
 		<Layout>

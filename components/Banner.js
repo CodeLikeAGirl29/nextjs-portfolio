@@ -66,11 +66,7 @@ const Image = ({ banner_image }) => {
 							{/* banner title */}
 							<div className="trm-banner-text">
 								<div className="trm-label trm-mb-20">Hi my new friend!</div>
-								<h1 className="trm-mb-30">
-									Discover my
-									<br />
-									resume!
-								</h1>
+								<h1 className="trm-mb-30">my resume</h1>
 							</div>
 
 							<a
@@ -192,10 +188,7 @@ const VideoBanner = ({}) => {
 				data-scroll-direction="vertical"
 				data-scroll-speed={-4}
 			>
-				<source
-					src="https://bslthemes.com/mp4//banner.mp4"
-					type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
-				/>
+				<source src="" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
 				<source src="img/banner.webm" type='video/webm; codecs="vp8, vorbis"' />
 				<source
 					src="img/banner.ogg"
@@ -218,11 +211,7 @@ const VideoBanner = ({}) => {
 							{/* banner title */}
 							<div className="trm-banner-text">
 								<div className="trm-label trm-mb-20">Hi my new friend!</div>
-								<h1 className="trm-mb-30">
-									Discover my
-									<br />
-									resume!
-								</h1>
+								<h1 className="trm-mb-30">my resume!</h1>
 							</div>
 							{/* banner title end */}
 							{/* scroll hint */}
@@ -251,10 +240,6 @@ const SliderBanner = ({}) => {
 			data-scroll-direction="vertical"
 			data-scroll-speed={-1}
 		>
-			{/* banner cover
-    <img src="img/banner.jpg" alt="banner" class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-4">
-    banner cover end */}
-			{/* banner slideshow cover */}
 			<Swiper
 				{...sliderProps.homeSlider}
 				className="swiper-container trm-slideshow"
@@ -305,11 +290,7 @@ const SliderBanner = ({}) => {
 							{/* banner title */}
 							<div className="trm-banner-text">
 								<div className="trm-label trm-mb-20">Hi my new friend!</div>
-								<h1 className="trm-mb-30">
-									Discover my
-									<br />
-									resume!
-								</h1>
+								<h1 className="trm-mb-30">my resume</h1>
 							</div>
 							{/* banner title end */}
 							{/* scroll hint */}

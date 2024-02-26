@@ -67,14 +67,10 @@ const ContactInfo = () => {
 								className="trm-white-icon"
 							/>
 						</div>
-						<h6 className="trm-mb-20">Wright</h6>
+						<h6 className="trm-mb-20">Write Me</h6>
 						<div className="trm-mb-15">
 							<span className="trm-label">Email:</span>{" "}
-							<span className="trm-text-sm">.inbox@gmail.com</span>
-						</div>
-						<div>
-							<span className="trm-label">Instagram:</span>{" "}
-							<span className="trm-text-sm">@emma</span>
+							<span className="trm-text-sm">lindseykdev@gmail.com</span>
 						</div>
 					</div>
 				</div>
